@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="card">
+    <form class="birth_date">
+      <div id="dayDiv"><label for="#day">DAY</label><br>
+      <input id="day" type="text" placeholder="DD"></div>
+      <div id="monthDiv"><label for="#month">MONTH</label><br>
+      <input id="month" type="text" placeholder="MM"></div>
+      <div id="yearDiv"><label for="#year">YEAR</label><br>
+      <input id="year" type="text" placeholder="YYYY"></div>
+      <button type="submit"><img id="arrow" src="assets/images/icon-arrow.svg" alt="arrow"></button>
+      </form>
+    <div class="age">
+      <p><span class="agespan">- -</span> years</p>
+      <p><span class="agespan">- -</span> months</p>
+      <p><span class="agespan">- -</span> days</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
